@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Hello</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script src="test2.js"></script>
+    
+    <div id="button_bar">
+        <button type="button" id="SHOW" onclick="show()">show txt</button>
+        <button type="button"  id="ADD" onclick="add1()">add element</button>
+        <button type="button"  id="REMOVE" onclick="remove1()">remove element</button>
+        <button type="button"  id="CLEAR" onclick="clear1()">Clear</button>
+        <button type="button"  id="PIE" onclick="pie()">Pie</button>
+        <button type="button"  id="LOCALPIE" onclick="localpie()" >localpie</button>
+    </div>
+    <br>
+    <div id="rem" style="visibility: hidden;">
+        <label for="indexTF" >Index</label>
+        <input type="text" id="indexTF" name="indexTF">
+        <br>
+        <button type="button"  id="VALIDREM" onclick="remove()">Valid remove</button>
+    </div>
+    <div id="ad" style="visibility: hidden;">
+        
+        <label for="titleTF">Title</label>
+        <input type="text" id="titleTF" name="titleTF">
+        <label for="colorTF">Color</label>
+        <input type="text" id="colorTF" name="colorTF">
+        <label for="valueTF">Value</label>
+        <input type="text" id="valueTF" name="valueTF">
+        <br>
+        <button type="button"  id="VALIDADD" onclick="add()">Valid add</button>
+    </div>
+
+    <br>
+
+    <div id='MAINSHOW'>
+        
+    </div>
+
+    <div id="svg">
+        <svg viewBox="-100 -100 200 200" id="view_box">
+            
+        </svg>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+[{"title":"new","color":"pink","value":300},{"title":"${title}","color":"${color}","value":"${value}"}]
